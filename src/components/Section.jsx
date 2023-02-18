@@ -1,9 +1,9 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 export const Section = ({ children }) => {
   return (
-    <section className='pt-14 pb-20'>
-      <div className='container'>{children}</div>
+    <section className="pt-14 pb-20">
+      <div className="container">{children}</div>
     </section>
   );
 };
